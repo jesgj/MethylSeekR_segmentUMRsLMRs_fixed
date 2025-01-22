@@ -40,7 +40,7 @@
             "notPMD"])
     }
     nCG = vcountPattern("CG", getSeq(myGenomeSeq, resize(segments.gr, 
-        width(segments.gr), fix = "start"))  # as.character = FALSE removed
+        width(segments.gr), fix = "start")))  # as.character = FALSE removed
     ov <- findOverlaps(m, segments.gr)
     T = tapply(values(m[queryHits(ov)])[, 1], subjectHits(ov), 
         sum)
