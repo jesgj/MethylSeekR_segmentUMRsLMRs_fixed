@@ -1,7 +1,7 @@
 # MethylSeekR_segmentUMRsLMRs_fixed
 segmentUMRsLMRs function (MethylSeekR) fixed
 
-A member of my lab was using the R package **MethylSeekR**, but encountered an error when running the function.**segmentUMRsLMRs()**:
+A member of my lab was using the R package **MethylSeekR**, but encountered an error when running the function **segmentUMRsLMRs()**:
 
 ```
 Error in h(simpleError(msg, call)) :
